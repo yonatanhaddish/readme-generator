@@ -41,8 +41,8 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  Question: ${data.question}</br>
-  Github: [${data.github}](http://github.com/${data.github})</br>
+  Question: ${data.question} <br/>
+  Github: [${data.github}](http://github.com/${data.github}) <br/>
   Reach me out if you have Questions through: ${data.email}
 
 
