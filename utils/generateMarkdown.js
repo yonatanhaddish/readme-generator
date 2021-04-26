@@ -35,15 +35,15 @@ function generateMarkdown(data) {
 
 
   ## Contributing
-  ${data.contributing}
+  👨‍👨‍👦‍👦 ${data.contributing}
 
   ## Tests
-  ${data.test}
+  👨‍💻 ${data.test}
 
   ## Questions
-  Question: ${data.question} <br/>
+  🙋 Question: ${data.question} <br/>
   Github: [${data.github}](http://github.com/${data.github}) <br/>
-  Reach me out if you have Questions through: ${data.email}
+  📧 Reach me out if you have Questions through: ${data.email}
 
 
 
