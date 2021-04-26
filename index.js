@@ -5,7 +5,6 @@ const Choices = require("inquirer/lib/objects/choices");
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Include packages needed for this application
-console.log("Trial");
 
 // TODO: Create an array of questions for user input
 const questions= () => {
@@ -134,14 +133,11 @@ const questions= () => {
     .then((questionsData) => {
         console.log('README file generated');
         let promptData = generateMarkdown(questionsData);
-        console.log(generateMarkdown(questionsData))
-        console.log(generateMarkdown(questionsData));
         writeFile(promptData)
     })
 };
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 function writeFile(data){
     fs.writeFile('./dist/README.md', data, err => {
         if (err) {
@@ -152,17 +148,7 @@ function writeFile(data){
 
 // TODO: Create a function to initialize app
 function init() {
-    console.log('hello')
     const data=  questions();
-    // console.log(data, 'data');
-    // const generateReadme= generateMarkdown(data);
-    // console.log(generateReadme);
-
-    // fs.writeFile('./dist/README.md', generateReadme, err => {
-    //     if (err) {
-    //         console.log('Error');
-    //     }
-    // });
 }
 
 // Function call to initialize app

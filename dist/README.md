@@ -1,5 +1,5 @@
 
-  README using node.js
+  README file generated using node.js
 
   ## Table of Contents
   - [Description](#description)
@@ -11,25 +11,25 @@
   - [Questions](#question)
 
   ## Description
-  Here we will write a brief of the program or application
+  Here will go a brief description
 
   ## Usage
-  Here we will provide a detailed on how to use the program
+  Here we will expalin on how to use the app to the users
 
   ## License
-  This application is licensed by GNU AGPLv3
+  This application is licensed by Boost Software License 1.0
 
 
   ## Contributing
-  👨‍👨‍👦‍👦 Here we will add the name of the contributers
+  👨‍👨‍👦‍👦 Here we will enter the names of the contributers to the app
 
   ## Tests
-  👨‍💻 undefined
+  👨‍💻 Tested
 
   ## Questions
-  🙋 Question: Here will go any questions ? <br/>
+  🙋 Question: Any question will be typed here ? <br/>
   Github: [yonatanhaddish](http://github.com/yonatanhaddish) <br/>
-  📧 Reach me out if you have Questions through: yoni@gmail.com
+  📧 Reach me out if you have Questions through: yonihailshn@gmail.com
 
 
 
