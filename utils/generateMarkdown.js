@@ -31,7 +31,6 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
   This application is licensed by ${data.license}
 
 
@@ -42,8 +41,8 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  Question: ${data.question}
-  Github: [${data.github}](http://github.com/${data.github})
+  Question: ${data.question}</br>
+  Github: [${data.github}](http://github.com/${data.github})</br>
   Reach me out if you have Questions through: ${data.email}
 
 
